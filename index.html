@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form📝</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    
+<marquee behavior="alternate" direction="left" bgcolor="black" style="color:yellow; font-weight:bold;" scrollamount="8">
+     <h1 >📝Course Registration Form📝</h1>
+</marquee>
+
+    <form action="https://tai.thetapacademy.com/courses/67b30124f9a064650eda8fd7">
+        
+    <fieldset>
+        <legend>Personal Details</legend>
+        <table>
+       <tr>
+        <td><label for="fname" >First Name:</label></td>
+        <td><input type="text" name="fname" placeholder="Ex.Nivetha" required>
+        <p>Enter Your Name</p></td>
+        
+       </tr>
+        <tr>
+        <td><label for="surname" >Surname:</label></td>
+        <td><input type="text" name="surname" placeholder="Ex.K" optional >
+        <p>Enter Your Surname</p></td>
+       </tr>
+       <tr>
+        <td><label for="mobile number">Mobile number:</label></td>
+        <td><input type="tel" name="mobile number" placeholder="Ex.123-456-7890" required>
+         <p>Enter Your Mobile.No</p></td>
+       </tr>
+       <tr>
+        <td><label for="email">Email:</label></td>
+        <td><input type="email"  name="email"placeholder="Ex.nive@gmail.com" required>
+        <p>Enter Your Email</p>
+        <img src="wrong.jpeg" alt="wrong" id="wrong">
+        <img src="correct.png" alt="correct" id="correct"> 
+        </td>
+       </tr>
+       <tr>
+        <td><label for="password">password:</label></td>
+        <td><input type="password" placeholder="Min 8 characters" required>
+        <p>Enter Your Password</p></td>
+       </tr>
+       <tr>
+        <td><label for="password">Confirm Password:</label></td>
+        <td><input type="password" name="password" placeholder="Min 8 characters" required>
+        <p>Confirm password</p></td>
+       </tr>
+       
+       <tr>
+        <td><label for="dob">DOB:</label></td>
+        <td><input type="date" name="dob" id="" optional></td>
+       </tr>
+       <tr>
+        <td><label for="age">Age:</label></td>
+        <td><input type="number" min="18" max="100" name="age">
+        <img src="wrong.jpeg" alt="valid" id="wrong">
+        <img src="correct.png" alt="invalid" id="correct"> 
+        </td>
+       </tr>
+       <tr>
+        <td><label for="Gender">Gender:</label></td>
+        <td><input type="radio" name="Gender" required>
+           <label >Male</label>
+        <input type="radio" name="Gender">
+        <label for="">Female</label>
+        <input type="radio" name="Gender">
+        <label for="">  Others</label></td>
+       </tr>
+       <tr>
+        <td><label for="select country">Select Country: </label></td>
+        <td>
+            <select name="select country" id="" optional>
+                <option value="select">Select</option>
+                <option value="india">India</option>
+                <option value="chinna">Chinna</option>
+                <option value="usa">USA</option>
+            </select>
+        </td>
+       </tr>
+       <tr>
+        <td><label for="upload resume">Upload Resume</label></td>
+        <td><input type="file" name="upload resume" required></td>
+       </tr>
+       <tr>
+       <td><input type="reset" name="reset" value="Reset"></td>
+       </tr>
+       </table>
+    </fieldset>
+    <fieldset>
+        <legend>Course Details</legend>
+        <table>
+           <tr>
+            <td><label for="select course">Select Course:</label></td>
+            <td>
+            <select name="select course" id="" optional>
+                <option value="python full stack">Python Full Stack</option>
+                <option value="java full stack">Java Full Stack</option>
+                <option value="data analytics">Data Analytics</option>
+            </select>
+        </td>
+        </tr>
+           <tr>
+            <td><label for="MOD">Delivery Mode:</label></td>
+            <td>
+                <input type="radio"name="MOD" value="online">
+                <label for="">ONLINE</label>
+                <input type="radio"name="MOD" value="offline">
+               <label for=""> OFFLINE</label>
+            </td>
+           </tr>
+           <tr>
+            <td><label for="name">INSTITUTE NAME:</label></td>
+            <td><input type="text" name="name" value="TAP ACADEMY" optional></td>
+           </tr>
+           <tr>
+            <td><label for="cmd">Addtional Comments:</label></td>
+        </tr>
+            <tr>
+            <td><textarea name="cmd" id="" cols="20" rows="5" optional></textarea></td>
+           </tr>
+        </table>
+    </fieldset>
+    <input type="submit" name="sumbit" value="submit" optional>
+    </form>
+</body>
+</html>
